@@ -1,10 +1,15 @@
-// Open login popup
-document.getElementById("login-button").addEventListener("click", function() {
-    document.getElementById("login-popup").style.display = "block";
-  });
+// script.js
+document.addEventListener("DOMContentLoaded", function() {
+    const loginButton = document.getElementById("login-button");
+    const popup = document.getElementById("login-popup");
+    const closeButton = document.getElementById("close-button");
   
-  // Close login popup
-  document.getElementById("close-button").addEventListener("click", function() {
-    document.getElementById("login-popup").style.display = "none";
+    loginButton.addEventListener("click", function() {
+      popup.classList.add("open");
+    });
+  
+    closeButton.addEventListener("click", function() {
+      popup.classList.remove("open");
+    });
   });
   
