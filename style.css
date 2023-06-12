@@ -4,11 +4,11 @@ body{
     padding: 0px;
 }
 /* style.css */
-#login-button {
+/* #login-button {
     padding: 10px 20px;
     font-size: 18px;
   }
-  
+   */
   .popup {
     position: fixed;
     top: 0;
@@ -91,6 +91,8 @@ body{
   }
   
   #login-button {
+    padding: 10px 20px;
+    font-size: 18px;
     position: absolute;
     background-color: green;
     border: hidden;
